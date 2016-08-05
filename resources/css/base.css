@@ -1,0 +1,133 @@
+.boxOverlay .alert {
+    display: none;
+	font-size: 10pt;
+}
+.backgroundOverlay {
+    display: none;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.6rem;
+}
+h4 {
+    font-size: 1.4rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1.15rem;
+}
+.circle {
+    border-radius: 100%;
+}
+.hidden {
+    display: none;
+}
+.container {
+    max-width: 1366px;
+    width: 95%;
+    margin: 0 auto;
+}
+.main {
+	padding-top: 50px;
+	padding-bottom: 85px;
+}
+.text-center {
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.result-info .text-center {
+	padding-bottom: 0;
+	font-size: 1rem;
+}
+.msg-info {
+	width: 100%;
+	text-align: center;
+	color: #985f0d;
+	line-height: 1.5;
+	max-width: 520px;
+	margin: 0 auto;
+}
+.link-retornar {
+	width: 100%;
+	margin: 45px auto;
+	text-align: center;
+}
+.retornar {
+	font-weight: 600;
+	text-decoration: underline;
+}
+.page-menu .menu-list {
+	display: flex;
+	justify-content: center;
+}
+.page-menu .menu-list .navlink {
+	background: #009688;
+	max-width: 120px;
+}
+.page-menu .menu-list .navlink:not(:last-of-type) {
+	border-right: 1px solid #FFFFFF;
+}
+.page-menu .menu-list .navlink:first-child {
+	border-radius: 30px 0 0 30px;
+}
+.page-menu .menu-list .navlink:last-child {
+	border-radius: 0 30px 30px 0;
+}
+.page-menu .menu-list .navlink:hover, .page-menu .menu-list .navlink.active {
+	background: #436379;
+}
+.page-menu .menu-list .navlink .navcation {
+	display: block;
+	width: 100%;
+	padding: 1.2ch 0 1.2ch 0;
+}
+.page-menu .menu-list .navlink .navcation {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	outline: 0;
+}
+@media (min-width: 780px) {
+	h1 {
+	    font-size: 2rem;
+	}
+	h2 {
+	    font-size: 1.7rem;
+	}
+	h3 {
+	    font-size: 1.6rem;
+	}
+	h4 {
+	    font-size: 1.4rem;
+	}
+	h5 {
+	    font-size: 1.25rem;
+	}
+	h6 {
+	    font-size: 1.15rem;
+	}
+	.page-container {
+		width: 100%;
+	}
+	.coll {
+		display: flex;
+	}
+	.page-container .col-list {
+		flex: 2;
+	}
+}

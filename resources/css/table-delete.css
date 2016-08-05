@@ -1,0 +1,77 @@
+.conf-excluir-opac {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #777272;
+	opacity: 0.7;
+}
+.conf-excluir {
+	position: fixed;
+	top: 30%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	max-width: 490px;
+	max-height: 150px;
+	margin: 0 auto;
+	background: #FFF;
+	box-shadow: 0 0 4.5px 0;
+	border-radius: 2px;
+	padding: 2ch;
+	z-index: 2000;
+}
+.info-deletar {
+	display: block;
+	width: 100%;
+	text-align: left;
+	font-weight: 600;
+	font-size: .9rem;
+}
+.deletar-perg {
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+	text-align: left;
+	font-size: 0.85rem;
+	color: red;
+}
+.form-btn-opt {
+	display: flex;
+	margin-top: 35px;
+}
+.form-btn-opt .button {
+	flex: 1;
+}
+.form-btn-opt .button .btn {
+	display: block;
+	width: 100%;
+	max-width: 125px;
+	outline: 0;
+	font-size: .89rem;
+	padding: 1.4ch 0 1.4ch 0;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	margin: inherit;
+}
+.form-btn-opt .button .btn.confirmar {
+	background: #4C865C;
+}
+.form-btn-opt .button .btn.confirmar:hover {
+	background: #396646;
+	border-color: #294b34;
+  	box-shadow: 0 0 5px 0;
+}
+.form-btn-opt .button .btn.cancelar {
+	background: #D54D4D;
+}
+.form-btn-opt .button .btn.cancelar:hover {
+	background: #cc3131;
+	border-color: #872121;
+  	box-shadow: 0 0 5px 0;
+}

@@ -1,0 +1,22 @@
+.image {
+	max-width: 100%;
+}
+.thumbnail {
+	border: 5px solid #F1F1F1;
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.thumbnail-caption {
+	background: rgba(255,255,255,0.8);
+}
+.thumbnail-caption span:not(.tituloexpericenciasocios) {
+	background: rgba(255,255,255,0.8);
+}
+.thumbnail:hover .thumbnail-caption span:not(.tituloexpericenciasocios){
+	background: #1fcfcb;
+	color: white;
+}
+.thumbnail-caption_overlap {
+	position: absolute;
+}

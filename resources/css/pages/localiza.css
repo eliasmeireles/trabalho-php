@@ -1,0 +1,22 @@
+.localizar-opt {
+    max-width: 550px;
+    margin: 0 auto;
+}
+.nova-pesquisa-link .btn-nova {
+    display: block;
+    width: 130px;
+    margin: 45px auto;
+    padding: 2ch;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+}
+.func-container .localiza {
+    width: 100%;
+    max-width: 450px;
+}
+
+@media (min-width: 780px) {
+    .localizar-opt {
+    }
+}

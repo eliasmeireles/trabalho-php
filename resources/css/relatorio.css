@@ -1,0 +1,16 @@
+.gera-relatorio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gera-relatorio .form {
+    flex: 1;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 1.5px 0;
+    background: #F1F1F1;
+    padding: 2ch;
+}
+.gera-relatorio .form .form-container {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}

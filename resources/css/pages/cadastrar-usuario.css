@@ -1,0 +1,24 @@
+.cadastrar-usuario .funcionario {
+	display: block;
+	width: 100%;
+	max-width: 550px;
+	margin: 0 auto;
+}
+.cadastrar-usuario .funcionario .func-image {
+	display: block;
+	margin: 0 auto;
+}
+.user-opt .button .btn.btn-cancelar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 10pt;
+}
+.nova-pesquisa .btn .btn-text {
+    display: block;
+    width: 100%;
+}
+.user-opt {
+    display: flex;
+}

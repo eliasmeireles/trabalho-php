@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+body {
+    font-family:  'Open Sans', sans-serif;
+}
+.background-primary {
+    background-color: #436379;
+}
+.background-primary_light {
+    background: #fff;
+}
+.background-primary_dark {
+    background: #000000;
+}
+.background-secondary {
+    background-color: #286090;
+}
+.background-secondary_light {
+    background: #b7b7b7;
+}
+.background-secondary-dark_light {
+    background: rgba(28, 186, 182, 0.55);
+}
+.background-secondary_dark {
+	background: #000000;
+}
+.color_primary  {
+    color: #4a4a4a;
+}
+.color_primary_light {
+    color: #ffffff;
+}
+.color-secondary {
+    color: #009f8c;
+}
+.color-secondary_light {
+    color: #c4c4c4;
+}
+.color-secondary_darck {
+    color: #453634;
+}
+.color-secondary_darck_mediun {
+    color: #a8a198;
+}
+
+.color-secondary_darck_light {
+    color: #888888;
+}
+.color_primary_mediun_light {
+    color: #918b82;
+}
+.font-primary {
+    font-family:  'Open Sans', sans-serif;
+}
+.font-secondary {
+    font-family: 'Open Sans';
+}
+.font-primary_dark {
+    font-family: '';
+}
+.font-primary-italic {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.font-primary-bold {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+}
+.font-primary-bold_mediun {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.font-secondary-light {
+    font-family: 'Oswald-Light';
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #000;
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    color: #000;
+}
+a:active {
+    color: #00F;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+.btn {
+    font-weight: bold;
+	color: #fff;
+}
+.btn-primary:hover {
+  background-color: rgb(22, 107, 121);
+  border-color: #436379;
+  box-shadow: 0 0 10px 0;
+}

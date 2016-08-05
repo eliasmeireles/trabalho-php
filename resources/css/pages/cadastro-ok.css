@@ -1,0 +1,33 @@
+.cadastro-ok {
+	width: 95%;
+	margin: 0 auto;
+}
+.resultado-grava-func {
+	width: 100%;
+	padding-bottom: 45px;
+	text-align: center;
+}
+.resultado-grava-func.error {
+	font-size: 1.2em;
+}
+.resultado-grava-func.sucesso {
+	color: #74a770;
+}
+.cadastro-ok .func-container .funcionario,
+.cadastro-ok .func-container .func-endereco {
+	width: 95%;
+	margin-bottom: 60px;
+}
+.cadastro-ok .func-container .funcionario .func {
+	padding-bottom: 2ch;
+}
+
+@media (min-width: 768px) {
+	.cadastro-ok {
+		width: 50%;
+	}
+	.cadastro-ok .func-container .funcionario,
+	.cadastro-ok .func-container .func-endereco {
+		width: 100%;
+	}
+}

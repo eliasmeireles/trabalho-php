@@ -1,0 +1,7 @@
+.cargo-grafico-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista-cargos, .base-grafica {
+    flex: 1;
+}

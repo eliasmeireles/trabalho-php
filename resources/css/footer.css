@@ -1,0 +1,33 @@
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.main {
+	position: relative;
+	padding-top: 140px;
+	padding-bottom: 130px; /* Igual ao height do footer */
+}
+
+.footer {
+	box-sizing: border-box;
+	height: 80px; /* Igual ao padding do wrapper */
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	margin-top: 80px;
+}
+
+.footer .footer-info {
+    display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 37px;
+	font-size: 1em;
+	color: #babdb6;
+}

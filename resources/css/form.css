@@ -1,0 +1,157 @@
+.cargo .resultado-info {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 393px;
+	text-align: center;
+	line-height: 3ch;
+	font-size: 1em;
+}
+.form {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.fieldset-border {
+	border: 1px solid #d7d7d7;
+}
+.input-conatiner {
+	width: 100%;
+}
+.cool-form {
+	flex: 1;
+}
+.form-sub-title {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+.input-radio {
+	display: flex;
+}
+.radio-box {
+	background: transparent;
+}
+.form-label {
+	display: block;
+	width: 100%;
+	height: 17px;
+	text-align: left;
+	font-size: 10pt;
+	padding-bottom: 4px;
+	
+}
+.input {
+	width: 96%;
+	height: 85px;
+	margin: 10px auto;
+}
+.input-box:focus {
+	box-shadow: 0 0 1.5px 1px #436379;
+}
+.input-box {
+	width: 97.8%;
+	height: 30px;
+	padding-left: .5ch;
+	border: 1px solid #d3c9c9;
+	border-radius: 6px;
+	font-size: 10pt;
+	outline: 0;
+}
+.input .input-mediun.select-box {
+	width: 100%;
+	height: 34px;
+}
+.input-half {
+	width: 100%;
+	margin: 0 auto;
+}
+.form-container .button {
+	width: 130px;
+	height: 45px;
+	margin: 45px auto;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.form-container .button .btn {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	outline: 0;
+	border: none;
+}
+.table-data .options {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100px;
+	margin: 0 auto;
+}
+.informer {
+	display: none;
+	position: absolute;
+	right: 0;
+	left: 0;
+	background: #DDDDDD;
+}
+.table-container {
+	position: relative;
+}
+.table-opt {
+	position: relative;
+	flex: 1;
+}
+.options .table-opt .btn {
+	display: block;
+	width: 30px;
+	margin: 0 auto;
+}
+.opt-ico {
+	width: 20px;
+	height: auto;
+}
+
+@media (min-width: 780px) {
+	.cool-form {
+		padding: 2ch;
+	}
+	.input-conatiner {
+		width: 100%;
+	}
+	.input-box {
+		width: 98.6%;
+	}
+	.input-half .input .input-box {
+		width: 97%;
+	}
+	.input-half .input:first-of-type {
+		margin-right: 2%;
+	} 
+	.input-half {
+		width: 100%;
+		display: flex;
+	}
+	.input, .input-half {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

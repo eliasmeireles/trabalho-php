@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    border-bottom: 1px solid #848484;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3rem;
+    padding: .5ch 0 .5ch 0;
+	width: 237px;
+	margin: 0 auto;
+}
+.logo-image {
+	width: 100%;
+}
+.data-gerada {
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: right;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.relatorio-info {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 2ch;
+}
+
+.list-result {
+    width: 100%;
+    max-width: 988px;
+    margin: 15px auto;
+    padding-top: 2ch;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.table-title {
+    font-size: 1.2em;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-data {
+    font-size: .89rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-data, .table-title {
+    text-align: center;
+    padding: 1ch 0 1ch 0;
+    border-collapse: collapse;
+}
+.footer {
+    width: 100%;
+    margin: 80px auto;
+}
+.footer-info {
+    display: block;
+    width: 100%;
+    padding: 2ch 0 2ch 0;
+    text-align: center;
+}
